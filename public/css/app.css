@@ -50,3 +50,46 @@ body{
 .card .row .col-4 img {
     width: 80%;
 }
+#accordion {
+    width: 100%;
+    padding-left: 0%;
+}
+#accordion li {
+    list-style: none;
+    width: 100%;
+    box-shadow: 3px 3px 3px 3px rgb(235, 235, 235);
+    border-radius: 10px;
+    padding: 16px 24px 0 24px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#accordion li label {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    cursor: pointer;
+}
+#accordion input[type="radio"]{
+    display: none;
+}
+#accordion .content {
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease-in-out;
+}
+#accordion input[type="radio"]:checked + label + .content {
+    max-height: 400px;
+}
+#accordion input[type="radio"]:checked + label img {
+    transform: rotate(180deg);
+    transition: transform 0.5s ease-in;
+}
+#accordion input[type="radio"] + label img{
+    transform: rotate(0deg);
+    transition: transform 0.5s ease-out;
+}

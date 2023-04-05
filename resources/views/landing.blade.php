@@ -73,25 +73,58 @@
 <div class="layanan container">
   <div class="layanan row">
     <div class="col-5">
-      <img src="/img/layanan.png" alt="">
+      <img width="100%" src="/img/layanan.png" alt="">
     </div>
     <div class="col-7">
       <h1>Layanan Lain Kami</h1>
-      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit mollit. Exercitation veniam consequat <br> sunt nostrud amet.</p>
-      <div class="list-layanan">
-        <h3>Mentoring</h3>
-        <img src="/img/arrowdown.png" alt="">
-        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia</br>consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-        <button type="button" class="btn btn-sm" id="btn">Selengkapnya</button>
-      </div>
-      <!-- <div class="list-layanan">
-        <h3>Konseling</h3>
-        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia</br>consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-      </div>
-      <div class="list-layanan">
-        <h3>Kelas Online</h3>
-        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia</br>consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-      </div> -->
+      <p style="width: 85%;">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+      <!-- ACCORDION -->
+      <ul id="accordion">
+        <li>
+          <input type="radio" name="accordion" id="first" checked>
+          <label for="first">
+            <h3>Mentoring</h3>
+            <img class="DD" style="width:16px; height:24px; align-items:center;" src="/img/arrowdown.png" alt="">
+          </label>
+          <div class="content">
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia</br>consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <button type="button" class="btn btn-sm mt-3 mb-4" id="btn">Selengkapnya</button>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="accordion" id="second">
+          <label for="second">
+            <h3>Konseling</h3>
+            <img class="DD" style="width:16px; height:24px; align-items:center;" src="/img/arrowdown.png" alt="">
+          </label>
+          <div class="content">
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia</br>consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <button type="button" class="btn btn-sm mt-3 mb-4" id="btn">Selengkapnya</button>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="accordion" id="third">
+          <label for="third">
+            <h3>Kelas Online</h3>
+            <img class="DD" style="width:16px; height:24px; align-items:center;" src="/img/arrowdown.png" alt="">
+          </label>
+          <div class="content">
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia</br>consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <button type="button" class="btn btn-sm mt-3 mb-4" id="btn">Selengkapnya</button>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="accordion" id="fourth">
+          <label for="fourth">
+            <h3>Tes Psikologi</h3>
+            <img class="DD" style="width:16px; height:24px; align-items:center;" src="/img/arrowdown.png" alt="">
+          </label>
+          <div class="content">
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia</br>consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <button type="button" class="btn btn-sm mt-3 mb-4" id="btn">Selengkapnya</button>
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
