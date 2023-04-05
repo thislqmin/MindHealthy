@@ -30,8 +30,9 @@ body{
     margin-left: 18px;
     padding: 0 24px 0 24px;
 }
-.mulai{
+.mulai-kiri{
     margin-top: 150px;
+    margin-left: 105px;
 }
 .mulai h5{
     margin-bottom: 25px;
@@ -41,7 +42,7 @@ body{
     margin-bottom: 55px;
 }
 .teks{
-    margin-top: 180px;
+    margin-top: 110px;
 }
 .card{
     border: none;
@@ -49,6 +50,19 @@ body{
 }
 .card .row .col-4 img {
     width: 80%;
+}
+.backgr {
+    background-image: url(/img/grup14.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    position: inherit;
+}
+.layanan{
+    margin-top: 100px;
+    padding: 100px 0 100px 0;
+}
+.layanan-kanan{
+    padding-right: 105px;
 }
 #accordion {
     width: 100%;
