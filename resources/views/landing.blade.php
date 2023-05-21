@@ -40,17 +40,17 @@
   <!-- CONTENT -->
   <div class="d-flex justify-content-between">
     <div class="mulai-kiri align-items-center">
-      <h5>Ceritakan masalah kamu dengan ahlinya</h5>
-      <h3>Selalu ada pagi yang damai <br> setelah malam yang penuh <br> badai. </h3>
-      <button type="button" class="btn btn-sm" id="btn">Daftar Sekarang</button>
-      <button type="button" class="btn btn-sm" id="btn2">Tentang Kami</button>
+      <h5><b>Ceritakan masalah kamu dengan ahlinya</h5>
+      <h3>Selalu ada pagi yang damai <br> setelah malam yang penuh <br> badai. </b></h3>
+      <button type="button" class="btn btn-sm mt-4" id="btn">Daftar Sekarang</button>
+      <button type="button" class="btn btn-sm mt-4" id="btn2">Tentang Kami</button>
     </div>
     <div class="">
       <img style="width: 100%;" src="/img/ilu1.png" alt="nongki">
     </div>  
   </div>
   <div class="teks container">
-    <h4 class="mb-5">MindHealty ingin membantu anda <br> dalam mengurangi masalah yang <br> anda alami</h4>
+    <h4 class="mb-5"><b>MindHealthy ingin membantu anda <br> dalam mengurangi masalah yang <br> anda alami</b></h4>
   </div>
 
   <!-- CARD -->
