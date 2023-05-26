@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function (){
     return view('landing');   
 }); 
+
 // Route::get('/signin', function (){
 //     return view('signin');   
 // })->name('signin');
@@ -28,3 +29,14 @@ Route::get('/signup', [AuthController::class, 'signup'])->name('signup');
 Route::post('/signup', [AuthController::class, 'signupPost'])->name('signup');
 Route::post('/signin', [AuthController::class, 'signinPost'])->name('signin');
 Route::get('/signin', [AuthController::class, 'signin'])->name('signin');
+=======
+Route::get('/signin', function (){
+    return view('signin');   
+});
+Route::get('/signup', function() {
+    return view('signup');
+});
+Route::get('/userpage', function() {
+    return view('userpage');
+});
+
