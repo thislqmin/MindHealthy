@@ -42,7 +42,7 @@
     <div class="mulai-kiri align-items-center">
       <h5><b>Ceritakan masalah kamu dengan ahlinya</h5>
       <h3>Selalu ada pagi yang damai <br> setelah malam yang penuh <br> badai. </b></h3>
-      <button type="button" class="btn btn-sm mt-4" id="btn"><a href="{{ route('signup') }}" style="text-decoration: none; color:white"> Daftar Sekarang </a></button>
+      <button type="button" class="btn btn-sm mt-4" id="btn">Daftar Sekarang</button>
       <button type="button" class="btn btn-sm mt-4" id="btn2">Tentang Kami</button>
     </div>
     <div class="">
