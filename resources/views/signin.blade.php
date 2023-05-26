@@ -15,24 +15,32 @@
   <div class="container">
     <h1 class="sign"><b>Sign In</b></h1>
     <p class="mt-3 mb-5 in">Sign in with email to continue</p>
+    @if(Session::has('error'))
+        <div class="alert alert-danger" role="alert">
+            {{ Session::get('error') }}
+        </div>
+    @endif
     <div class="col-5">
-        <div class="form form-floating mb-4">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email</label>
-        </div>
-        <div class="form form-floating mt-3">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
-        </div>
-        <div>
-            <p class="lupa mt-3 mb-4">Forgot Your Password ?</p>
-        </div>
-        <div class="">
-            <button type="button" id="btn" class="button-login btn ms-auto">Sign In</button>
-        </div>
-        <div class="container row mt-3">
-            <p class="forgot">Don't have an account ? Sign Up</p>
-        </div>
+        <form action="{{ route('signin') }}" method="POST">
+            @csrf
+            <div class="frm form-floating mb-4">
+                <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email</label>
+            </div>
+            <div class="frm form-floating mt-3">
+                <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+            <div>
+                <p class="lupa mt-3 mb-4">Forgot Your Password ?</p>
+            </div>
+            <div class="">
+                <button id="btn" class="button-login btn ms-auto">Sign In</button>
+            </div>
+            <div class="container row mt-3">
+                <p class="forgot">Don't have an account ? <a href="{{ route('signup') }}"> Sign Up </a></p>
+            </div>
+        </form>
     </div>
   </div>
 

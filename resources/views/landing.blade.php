@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/land.css">
 </head>
 <body>
   <!-- NAVBAR / HEADER -->
@@ -42,7 +42,7 @@
     <div class="mulai-kiri align-items-center">
       <h5><b>Ceritakan masalah kamu dengan ahlinya</h5>
       <h3>Selalu ada pagi yang damai <br> setelah malam yang penuh <br> badai. </b></h3>
-      <button type="button" class="btn btn-sm mt-4" id="btn">Daftar Sekarang</button>
+      <button type="button" class="btn btn-sm mt-4" id="btn"><a href="{{ route('signup') }}" style="text-decoration: none; color:white"> Daftar Sekarang </a></button>
       <button type="button" class="btn btn-sm mt-4" id="btn2">Tentang Kami</button>
     </div>
     <div class="">
